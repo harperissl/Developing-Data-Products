@@ -1,0 +1,19 @@
+---
+title: "Leaflet"
+author: "Peng Huang"
+date: "2024-04-30"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## My First Leaflet Map
+Add the marker to the map and display the map.
+```{r}
+library(leaflet)
+shanghaiDisneyPopup <- c("<a href= 'https://www.shanghaidisneyresort.com/destinations/theme-park/'>Shanghai Disney<br><img src='https://static-mh.content.disney.io/matterhorn/assets/goc/disney_logo_dark@2x-45d70f7dd57b.png' alt='Shanghai Disney' /><br></a>")
+leaflet() %>%
+   addTiles() %>%
+   addMarkers(lat=31.1434, lng=121.6579, popup = shanghaiDisneyPopup)
+```
