@@ -30,7 +30,9 @@ URL: *https://www.coursera.org/learn/data-products/peer/tMYrn/course-project-shi
 ### Motor Trend Car Road Tests
 
 > The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
 ### Source
+
 > Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391-411.
 ```{r}
 library(datasets)

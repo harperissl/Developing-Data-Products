@@ -1,0 +1,12 @@
+name: car_crash_report
+title: car_crash_report
+username: owebph-kevin-harper
+account: owebph-kevin-harper
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11924798
+bundleId: 8570521
+url: https://owebph-kevin-harper.shinyapps.io/car_crash_report/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
